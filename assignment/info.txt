@@ -1,0 +1,54 @@
+# Attempt 1
+
+Question
+
+PROJECT:
+
+Get an integer ‘N’ and an integer array ‘a’ of ‘N’ elements from the user.
+Decrease the elements of the array multiple times to make the array non decreasing.
+In all such possible non decreasing ordered array, print the sum of elements of that array that have the maximum sum.
+ NOTE:
+
+ A non decreasing array is an array in which every element is either equal or greater than the previous element.
+
+ T- denotes the number of test cases. It specifies the number of times to run the solve function on a different set of inputs. 
+
+ 
+
+Example:1
+
+T=1, N=2, a={5,4}
+
+ 
+
+Decreasing the first element of the array by 1.
+
+a={4,4}. Therefore the sum is 4+4 = 8.
+
+ 
+
+Example:2
+
+T=1, N=5, a={1,5,2,3,4}
+
+ 
+
+Decreasing the second element 3 times,
+
+a={1,2,2,3,4}.
+
+ 
+
+Now the array is non decreasing. 
+
+Therefore the answer is 1+2+2+3+4=12.
+
+ 
+
+Example:3
+
+T=1, N=5, a={5,4,3,2,1}
+
+ 
+
+Answer is 1+1+1+1+1=5
